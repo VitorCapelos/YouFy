@@ -1,0 +1,27 @@
+<!-- Card Playlist -->
+<div class="content">
+  <div class="card text-white shadow">
+    <div class="card-body">
+      <h5 class="card-title">
+        <strong>{{playlistInfo.Titulo}}</strong>
+      </h5>
+      <div class="row">
+          <p class="col-9">
+            <small>Criado por <i>{{playlistInfo.NomeCriador}}</i></small>
+          </p>
+          <div class="col-3" style="margin-top: -10px">
+            <a href="{{playlistInfo.UrlPlaylist}}"  target="_blank" class="btn d-flex justify-content-center col-sm-2 btn-light">
+              <i class="fa-brands fa-spotify" alt="Abrir no Spotify"></i>
+            </a>
+          </div>
+      </div>
+      <div>
+        <div class="col-sm-2">{{playlistInfo.Descricao}}</div>
+        <img
+        width="150" height="150" class="d-flex mx-auto shadow"
+        alt="Logo"
+        src="{{playlistInfo.UrlThumbnail}}"/>
+      </div>
+    </div>
+  </div>
+</div>

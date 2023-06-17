@@ -1,0 +1,24 @@
+div {
+  align-self: center;
+}
+
+.card {
+  display: flex;
+  justify-content: baseline;
+  margin-top: 10px;
+  background-color: #8E402A;
+
+  width: 1200px;
+}
+
+.card-body {
+  width: 1200px;
+}
+
+.content {
+  display: flex;
+  margin: 15px auto;
+  padding: 0 16px;
+  flex-direction: column;
+  align-items: center;
+}
